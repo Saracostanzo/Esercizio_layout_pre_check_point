@@ -23,7 +23,12 @@
 
 
 function counterZero( numbersArray ) {
-
-    //Insert your code here 
-    
+let j=0;
+for (i=0;i<numbersArray.length;i++){
+    if (numbersArray[i]===0){
+        j++  
+    }
 }
+return j;
+}
+console.log(counterZero([-1,1,-2,2,-3,3,0,0,0,0]));
